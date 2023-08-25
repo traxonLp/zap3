@@ -1,0 +1,7 @@
+name: Zap3
+version: '${project.version}'
+main: de.traxonlp.zap3.Main
+api-version: '1.20'
+authors: [traxonLp]
+description: Zap Plugin
+website: github.com/traxonLp
