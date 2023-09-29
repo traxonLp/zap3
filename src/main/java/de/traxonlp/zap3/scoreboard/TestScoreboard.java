@@ -10,7 +10,7 @@ public class TestScoreboard extends ScoreboardBuilder{
 
     @Override
     public void createScoreboard() {
-        setScore("bigcock", 7);
+        setScore("test1", 7);
         setScore(ChatColor.GRAY + "Dein Rang: ", 6);
 
         if(player.isOp()) {
@@ -18,11 +18,11 @@ public class TestScoreboard extends ScoreboardBuilder{
         } else {
             setScore(ChatColor.GRAY + "Spieler", 5);
         }
-        setScore("bigcock", 4);
-        setScore(ChatColor.YELLOW + "SEMEN", 3);
+        setScore("test2", 4);
+        setScore(ChatColor.YELLOW + "Text", 3);
         setScore(player.getAddress().getHostName(), 2);
-        setScore("bigcock", 1);
-        setScore("bigcock", 0);
+        setScore("test3", 1);
+        setScore("test4", 0);
     }
 
     @Override
